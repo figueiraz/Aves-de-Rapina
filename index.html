@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="eagleicon.png" type="image/x-png">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="style
+sheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex e Grid</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Galeria de <span>Aves de Rapina</span></h1>
+        <p>Conheça algumas das Aves de Rapina mais famosas do mundo!</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="https://cdn.pixabay.com/photo/2014/05/11/13/39/bird-341898_960_720.jpg" alt="eagle">
+            <div class="text">
+                <h3>Águia Americana</h3>
+                <p>Sua distribuição geográfica inclui a maioria do Canadá, todos os Estados Unidos sendo o Alasca a sua maior distribuição, e norte do México.</p>
+                <a href="https://pt.wikipedia.org/wiki/Haliaeetus_leucocephalus" class="btn" target="_blank"> Ver mais
+                    informações </a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="https://cdn.pixabay.com/photo/2015/12/01/19/35/eagle-1072696_960_720.jpg" alt="ave2">
+            <div class="text">
+                <h3>Gavião Carijó</h3>
+                <p>Encontrado em diferentes ambientes, ocorrendo do México à Argentina e em todo o Brasil.</p>
+                <a href="https://pt.wikipedia.org/wiki/Gavi%C3%A3o-carij%C3%B3" class="btn" target="_blank">Ver mais
+                    informações</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="https://images.pexels.com/photos/1200855/pexels-photo-1200855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="ave3">
+            <div class="text">
+                <h3>Falcão Peregrino</h3>
+                <p>Esta espécie prefere habitats em zonas montanhosas ou costeiras, mas pode também ser encontrado em grandes cidades como Nova Iorque.</p>
+                <a href="https://pt.wikipedia.org/wiki/Falc%C3%A3o-peregrino" class="btn" target="_blank">Ver mais
+                    informações</a>
+            </div>
+        </section>
+    </main>
+
+    <h2>Conheça mais <span>Aves</span> </h2>
+    <div class="galeria">
+        <div style="background-image: url('https://images.pexels.com/photos/2013901/pexels-photo-2013901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+        <div style="background-image: url('https://images.pexels.com/photos/11162294/pexels-photo-11162294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+        <div style="background-image: url('https://images.pexels.com/photos/12406968/pexels-photo-12406968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+        <div style="background-image: url('https://images.pexels.com/photos/7322690/pexels-photo-7322690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+        <div style="background-image: url('https://images.pexels.com/photos/7250858/pexels-photo-7250858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido Por Gabriel Figueira &reg &copy</p>
+    </footer>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
